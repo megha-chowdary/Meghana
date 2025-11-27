@@ -1,0 +1,75 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #005f99;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #004d80;
+}
+
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #007acc;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #007acc;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Scroll to top button */
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+#scrollTopBtn:hover {
+    background-color: #005f99;
+}
